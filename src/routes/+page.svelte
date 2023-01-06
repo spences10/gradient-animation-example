@@ -1,4 +1,10 @@
+<script>
+	import ThemeChange from '$lib/components/theme-change.svelte';
+</script>
+
 <div class="flex flex-col items-center justify-center h-screen">
+	<ThemeChange />
+
 	<h1
 		class="bg-clip-text text-transparent bg-gradient-to-tr from-primary to-secondary via-accent animate-gradient-xy font-extrabold text-6xl md:text-9xl py-8"
 	>
