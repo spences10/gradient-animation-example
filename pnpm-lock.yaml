@@ -58,7 +58,7 @@ importers:
         version: 3.6.9(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)
       svelte-preprocess:
         specifier: ^5.1.3
-        version: 5.1.3(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)(typescript@5.4.4)
+        version: 5.1.4(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)(typescript@5.4.4)
       tailwindcss:
         specifier: ^3.4.0
         version: 3.4.3
@@ -404,8 +404,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/pug@2.0.6':
-    resolution: {integrity: sha512-SnHmG9wN1UVmagJOnyo/qkk0Z7gejYxOYYmaAwr5u2yFYfsupN3sg10kyzN8Hep/2zbHxCnsumxOoRIRMBwKCg==}
+  '@types/pug@2.0.10':
+    resolution: {integrity: sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==}
 
   '@types/semver@7.5.8':
     resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
@@ -822,8 +822,8 @@ packages:
   globrex@0.1.2:
     resolution: {integrity: sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==}
 
-  graceful-fs@4.2.10:
-    resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
+  graceful-fs@4.2.11:
+    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
@@ -954,10 +954,6 @@ packages:
   magic-string@0.30.10:
     resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
 
-  magic-string@0.30.5:
-    resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
-    engines: {node: '>=12'}
-
   magic-string@0.30.7:
     resolution: {integrity: sha512-8vBuFF/I/+OSLRmdf2wwFCJCz+nSn0m6DPvGH1fS/KiQoSaR+sETbov0eIk9KhEKy8CYqIkIAnbohxT/4H0kuA==}
     engines: {node: '>=12'}
@@ -992,8 +988,8 @@ packages:
     resolution: {integrity: sha512-KqWh+VchfxcMNRAJjj2tnsSJdNbHsVgnkBhTNrW7AjVo6OvLtxw8zfT9oLw1JSohlFzJ8jCoTgaoXvJ+kHt6fw==}
     engines: {node: '>=16 || 14 >=14.17'}
 
-  minimist@1.2.7:
-    resolution: {integrity: sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==}
+  minimist@1.2.8:
+    resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
 
   minipass@7.0.4:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
@@ -1302,9 +1298,9 @@ packages:
     peerDependencies:
       svelte: ^3.19.0 || ^4.0.0
 
-  svelte-preprocess@5.1.3:
-    resolution: {integrity: sha512-xxAkmxGHT+J/GourS5mVJeOXZzne1FR5ljeOUAMXUkfEhkLEllRreXpbl3dIYJlcJRfL1LO1uIAPpBpBfiqGPw==}
-    engines: {node: '>= 16.0.0', pnpm: ^8.0.0}
+  svelte-preprocess@5.1.4:
+    resolution: {integrity: sha512-IvnbQ6D6Ao3Gg6ftiM5tdbR6aAETwjhHV+UKGf5bHGYR69RQvF1ho0JKPcbUON4vy4R7zom13jPjgdOWCQ5hDA==}
+    engines: {node: '>= 16.0.0'}
     peerDependencies:
       '@babel/core': ^7.10.2
       coffeescript: ^2.5.1
@@ -1725,7 +1721,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/pug@2.0.6': {}
+  '@types/pug@2.0.10': {}
 
   '@types/semver@7.5.8': {}
 
@@ -2204,7 +2200,7 @@ snapshots:
 
   globrex@0.1.2: {}
 
-  graceful-fs@4.2.10: {}
+  graceful-fs@4.2.11: {}
 
   graphemer@1.4.0: {}
 
@@ -2311,10 +2307,6 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  magic-string@0.30.5:
-    dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
-
   magic-string@0.30.7:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
@@ -2346,13 +2338,13 @@ snapshots:
     dependencies:
       brace-expansion: 2.0.1
 
-  minimist@1.2.7: {}
+  minimist@1.2.8: {}
 
   minipass@7.0.4: {}
 
   mkdirp@0.5.6:
     dependencies:
-      minimist: 1.2.7
+      minimist: 1.2.8
 
   mri@1.2.0: {}
 
@@ -2544,7 +2536,7 @@ snapshots:
   sander@0.5.1:
     dependencies:
       es6-promise: 3.3.1
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
       mkdirp: 0.5.6
       rimraf: 2.7.1
 
@@ -2574,7 +2566,7 @@ snapshots:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
       buffer-crc32: 0.2.13
-      minimist: 1.2.7
+      minimist: 1.2.8
       sander: 0.5.1
 
   source-map-js@1.2.0: {}
@@ -2630,7 +2622,7 @@ snapshots:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.13
-      svelte-preprocess: 5.1.3(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)(typescript@5.4.4)
+      svelte-preprocess: 5.1.4(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)(typescript@5.4.4)
       typescript: 5.4.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -2647,11 +2639,11 @@ snapshots:
     dependencies:
       svelte: 4.2.13
 
-  svelte-preprocess@5.1.3(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)(typescript@5.4.4):
+  svelte-preprocess@5.1.4(postcss-load-config@5.0.3(jiti@1.21.0)(postcss@8.4.38))(postcss@8.4.38)(svelte@4.2.13)(typescript@5.4.4):
     dependencies:
-      '@types/pug': 2.0.6
+      '@types/pug': 2.0.10
       detect-indent: 6.1.0
-      magic-string: 0.30.5
+      magic-string: 0.30.10
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.13
