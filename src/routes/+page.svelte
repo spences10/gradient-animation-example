@@ -2,21 +2,21 @@
 	import ThemeChange from '$lib/components/theme-change.svelte';
 </script>
 
-<div class="flex flex-col items-center justify-center h-screen">
+<div class="flex h-screen flex-col items-center justify-center">
 	<ThemeChange />
 
 	<h1
-		class="bg-clip-text text-transparent bg-gradient-to-tr from-primary to-secondary via-accent animate-gradient-xy font-extrabold text-6xl md:text-9xl py-8"
+		class="from-primary to-secondary via-accent animate-gradient-xy bg-linear-to-tr bg-clip-text py-8 text-6xl font-extrabold text-transparent md:text-9xl"
 	>
 		Tailwind Gradient Text
 	</h1>
 	<p
-		class="bg-clip-text text-transparent bg-gradient-to-br from-primary to-secondary via-accent animate-gradient-y font-extrabold text-3xl md:text-6xl py-8"
+		class="from-primary to-secondary via-accent animate-gradient-y bg-linear-to-br bg-clip-text py-8 text-3xl font-extrabold text-transparent md:text-6xl"
 	>
 		This animation is on the vertical axis
 	</p>
 	<p
-		class="bg-clip-text text-transparent bg-gradient-to-tl from-primary to-secondary via-accent animate-gradient-x font-extrabold text-3xl md:text-6xl py-8"
+		class="from-primary to-secondary via-accent animate-gradient-x bg-linear-to-tl bg-clip-text py-8 text-3xl font-extrabold text-transparent md:text-6xl"
 	>
 		This animation is on the horizontal axis
 	</p>

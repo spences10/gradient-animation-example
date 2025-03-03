@@ -1,13 +1,8 @@
-<script>
-	import { onMount } from 'svelte';
-	import { themeChange } from 'theme-change';
+<script lang="ts">
 	import '../app.css';
-
-	onMount(() => {
-		themeChange(false);
-	});
+	let { children } = $props();
 </script>
 
 <main>
-	<slot />
+	{@render children()}
 </main>

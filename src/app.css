@@ -1,3 +1,53 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@layer utilities {
+  @keyframes gradient-y {
+    0%, 100% {
+      background-size: 400% 400%;
+      background-position: center top;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: center center;
+    }
+  }
+
+  @keyframes gradient-x {
+    0%, 100% {
+      background-size: 200% 200%;
+      background-position: left center;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+
+  @keyframes gradient-xy {
+    0%, 100% {
+      background-size: 400% 400%;
+      background-position: left center;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+
+  .animate-gradient-x {
+    animation: gradient-x 5s ease infinite;
+  }
+
+  .animate-gradient-y {
+    animation: gradient-y 5s ease infinite;
+  }
+
+  .animate-gradient-xy {
+    animation: gradient-xy 5s ease infinite;
+  }
+}
+
+/* Plugin configurations */
+@plugin "daisyui" {
+  themes: all;
+}
