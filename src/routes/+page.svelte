@@ -1,9 +1,9 @@
 <script>
-	import ThemeChange from '$lib/components/theme-change.svelte';
+	import ThemeSelect from '$lib/components/theme-select.svelte';
 </script>
 
 <div class="flex h-screen flex-col items-center justify-center">
-	<ThemeChange />
+	<ThemeSelect />
 
 	<h1
 		class="from-primary to-secondary via-accent animate-gradient-xy bg-linear-to-tr bg-clip-text py-8 text-6xl font-extrabold text-transparent md:text-9xl"
