@@ -19,10 +19,10 @@ importers:
         version: 1.53.2
       '@sveltejs/adapter-auto':
         specifier: ^6.0.1
-        version: 6.0.1(@sveltejs/kit@2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))
+        version: 6.0.1(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))
       '@sveltejs/kit':
         specifier: ^2.22.2
-        version: 2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
+        version: 2.22.5(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
       '@sveltejs/vite-plugin-svelte':
         specifier: ^5.1.0
         version: 5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
@@ -369,6 +369,9 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
+  '@jridgewell/sourcemap-codec@1.5.4':
+    resolution: {integrity: sha512-VT2+G1VQs/9oz078bLrYbecdZKs912zQlkelYpuf+SXF+QvZDYJlbx/LSx+meSAwdDFnF8FVXW92AVjjkVmgFw==}
+
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
@@ -389,8 +392,8 @@ packages:
     engines: {node: '>=18'}
     hasBin: true
 
-  '@polka/url@1.0.0-next.28':
-    resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
+  '@polka/url@1.0.0-next.29':
+    resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
 
   '@rollup/rollup-android-arm-eabi@4.34.9':
     resolution: {integrity: sha512-qZdlImWXur0CFakn2BJ2znJOdqYZKiedEPEVNTBrpfPjc/YuTGcaYZcdmNFTkUj3DU0ZM/AElcM8Ybww3xVLzA==}
@@ -497,8 +500,8 @@ packages:
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
 
-  '@sveltejs/kit@2.22.2':
-    resolution: {integrity: sha512-2MvEpSYabUrsJAoq5qCOBGAlkICjfjunrnLcx3YAk2XV7TvAIhomlKsAgR4H/4uns5rAfYmj7Wet5KRtc8dPIg==}
+  '@sveltejs/kit@2.22.5':
+    resolution: {integrity: sha512-l5i+LcDaoymD2mg5ziptnHmzzF79+c9twJiDoLWAPKq7afMEe4mvGesJ+LVtm33A92mLzd2KUHgtGSqTrvfkvg==}
     engines: {node: '>=18.13'}
     hasBin: true
     peerDependencies:
@@ -2065,6 +2068,8 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
+  '@jridgewell/sourcemap-codec@1.5.4': {}
+
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
@@ -2086,7 +2091,7 @@ snapshots:
     dependencies:
       playwright: 1.53.2
 
-  '@polka/url@1.0.0-next.28': {}
+  '@polka/url@1.0.0-next.29': {}
 
   '@rollup/rollup-android-arm-eabi@4.34.9':
     optional: true
@@ -2149,11 +2154,11 @@ snapshots:
     dependencies:
       acorn: 8.15.0
 
-  '@sveltejs/adapter-auto@6.0.1(@sveltejs/kit@2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))':
+  '@sveltejs/adapter-auto@6.0.1(@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))':
     dependencies:
-      '@sveltejs/kit': 2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
+      '@sveltejs/kit': 2.22.5(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
 
-  '@sveltejs/kit@2.22.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))':
+  '@sveltejs/kit@2.22.5(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))':
     dependencies:
       '@sveltejs/acorn-typescript': 1.0.5(acorn@8.15.0)
       '@sveltejs/vite-plugin-svelte': 5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
@@ -2170,7 +2175,6 @@ snapshots:
       sirv: 3.0.1
       svelte: 5.34.9
       vite: 6.3.5(jiti@2.4.2)(lightningcss@1.30.1)
-      vitefu: 1.0.6(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))
 
   '@sveltejs/vite-plugin-svelte-inspector@4.0.1(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1)))(svelte@5.34.9)(vite@6.3.5(jiti@2.4.2)(lightningcss@1.30.1))':
     dependencies:
@@ -2964,7 +2968,7 @@ snapshots:
 
   magic-string@0.30.17:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.4
 
   merge2@1.4.1: {}
 
@@ -3171,7 +3175,7 @@ snapshots:
 
   sirv@3.0.1:
     dependencies:
-      '@polka/url': 1.0.0-next.28
+      '@polka/url': 1.0.0-next.29
       mrmime: 2.0.1
       totalist: 3.0.1
 
